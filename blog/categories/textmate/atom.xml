@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Textmate | Blake Hilscher]]></title>
+  <link href="http://blakehilscher.github.io/blog/categories/textmate/atom.xml" rel="self"/>
+  <link href="http://blakehilscher.github.io/"/>
+  <updated>2014-07-17T09:40:35-04:00</updated>
+  <id>http://blakehilscher.github.io/</id>
+  <author>
+    <name><![CDATA[Blake Hilscher]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Show Hidden Files and Folders in Textmate.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files/"/>
+    <updated>2012-10-04T22:14:48-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files</id>
+    <content type="html"><![CDATA[<p>```ruby</p>
+
+<h1>Want to show hidden files and folders in your TextMate project drawer? Simple, just modify the file and folder patterns in TextMate&rsquo;s preferences.</h1>
+
+<h1>Instructions:</h1>
+
+<h1>Go to TextMate > Preferences&hellip;</h1>
+
+<h1>Click Advanced</h1>
+
+<h1>Select Folder References</h1>
+
+<h1>Replace the following:</h1>
+
+<h1>File Pattern</h1>
+
+<p>!(/.(?!\W<em>)[^/]</em>|.(gitkeep|DS_Store|tmproj|o|pyc)|/Icon\r|/svn-commit(.[2-9])?.tmp)$</p>
+
+<h1>Folder Pattern</h1>
+
+<p>!.<em>/(.git|CVS|<em>darcs|</em>MTN|{arch}|blib|.</em>~.nib|.*.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$
+```</p>
+]]></content>
+  </entry>
+  
+</feed>

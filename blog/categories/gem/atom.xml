@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gem | Blake Hilscher]]></title>
+  <link href="http://blakehilscher.github.io/blog/categories/gem/atom.xml" rel="self"/>
+  <link href="http://blakehilscher.github.io/"/>
+  <updated>2014-07-17T09:40:35-04:00</updated>
+  <id>http://blakehilscher.github.io/</id>
+  <author>
+    <name><![CDATA[Blake Hilscher]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Static Gallery Generator Gem]]></title>
+    <link href="http://blakehilscher.github.io/blog/2014/07/17/gallerize-gem/"/>
+    <updated>2014-07-17T09:30:20-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2014/07/17/gallerize-gem</id>
+    <content type="html"><![CDATA[<p>A static gallery generator gem that creates beautiful responsive layouts.</p>
+
+<p><code>
+gem install gallerize-cli
+</code></p>
+
+<p><a href="http://examples.hilscher.ca/gallerize/">Example Gallery</a>
+<a href="https://github.com/blakehilscher/gallerize">Documentation</a></p>
+
+<!-- more -->
+
+
+<h3>Overview</h3>
+
+<ul>
+<li>generate a static gallery from a folder of images</li>
+<li>responsive layout</li>
+<li>thumbnails and fullsize are generated automatically</li>
+<li>does not alter existing directory</li>
+</ul>
+
+
+<h3>Installation</h3>
+
+<p><code>
+gem install gallerize-cli
+</code></p>
+
+<h3>Usage</h3>
+
+<p><code>
+$ cd folder-with-pictures
+$ gallerize
+$ open static-gallery/index.html
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

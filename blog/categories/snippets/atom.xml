@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Snippets | Blake Hilscher]]></title>
+  <link href="http://blakehilscher.github.io/blog/categories/snippets/atom.xml" rel="self"/>
+  <link href="http://blakehilscher.github.io/"/>
+  <updated>2014-07-17T09:40:35-04:00</updated>
+  <id>http://blakehilscher.github.io/</id>
+  <author>
+    <name><![CDATA[Blake Hilscher]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Grape API Formatter for Sending Inline Data.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2013/03/10/grape-inline-data/"/>
+    <updated>2013-03-10T22:14:48-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2013/03/10/grape-inline-data</id>
+    <content type="html"><![CDATA[<p>I needed to add a .png formatter to the <a href="http://quandl.com/help/api">quandl</a> Grape API.</p>
+
+<p>The png is generated using phantomjs, so it needed to be sent down inline.</p>
+
+<p>```ruby
+content_type :png, &ldquo;image/png&rdquo;</p>
+
+<p>formatter :png, lambda { |response, env|</p>
+
+<pre><code>path = response.try(:object).try(:to_png)
+rack = Rack::Response.new(File.read(path) , 200, { "Content-type" =&gt; "image/png" }).finish
+rack[2].body[0]
+</code></pre>
+
+<p>}
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Invoke a Proc in the Context of Another Object.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2012/10/30/proc/"/>
+    <updated>2012-10-30T22:14:48-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2012/10/30/proc</id>
+    <content type="html"><![CDATA[<p>```ruby
+class ObjectContext</p>
+
+<p>  def initialize</p>
+
+<pre><code>@number = 10
+</code></pre>
+
+<p>  end</p>
+
+<p>  def evaluate(proc)</p>
+
+<pre><code>instance_exec &amp;proc
+</code></pre>
+
+<p>  end</p>
+
+<p>end</p>
+
+<h1>our multiplication proc</h1>
+
+<p>t = &ndash;> { puts( @number * @number) }</p>
+
+<h1>evaluate in current context</h1>
+
+<p>@number = 5
+t.call #=> 25</p>
+
+<h1>evaluate in context of an ObjectFactory instance</h1>
+
+<p>o = ObjectContext.new
+o.evaluate(t) #=> 100
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Show Hidden Files and Folders in Textmate.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files/"/>
+    <updated>2012-10-04T22:14:48-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files</id>
+    <content type="html"><![CDATA[<p>```ruby</p>
+
+<h1>Want to show hidden files and folders in your TextMate project drawer? Simple, just modify the file and folder patterns in TextMate&rsquo;s preferences.</h1>
+
+<h1>Instructions:</h1>
+
+<h1>Go to TextMate > Preferences&hellip;</h1>
+
+<h1>Click Advanced</h1>
+
+<h1>Select Folder References</h1>
+
+<h1>Replace the following:</h1>
+
+<h1>File Pattern</h1>
+
+<p>!(/.(?!\W<em>)[^/]</em>|.(gitkeep|DS_Store|tmproj|o|pyc)|/Icon\r|/svn-commit(.[2-9])?.tmp)$</p>
+
+<h1>Folder Pattern</h1>
+
+<p>!.<em>/(.git|CVS|<em>darcs|</em>MTN|{arch}|blib|.</em>~.nib|.*.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$
+```</p>
+]]></content>
+  </entry>
+  
+</feed>

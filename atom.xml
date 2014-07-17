@@ -1,115 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Blake Hilscher</title>
-  <meta name="author" content="Blake Hilscher">
-
-  
-  <meta name="description" content="A static gallery generator gem that creates beautiful responsive layouts. 1
-gem install gallerize-cli Example Gallery
-Documentation ">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://blakehilscher.github.io">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Blake Hilscher" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-28001275-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Blake Hilscher</a></h1>
-  
-    <h2>Thoughts on ruby development.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:blakehilscher.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/about">About</a></li>  
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Blake Hilscher]]></title>
+  <link href="http://blakehilscher.github.io/atom.xml" rel="self"/>
+  <link href="http://blakehilscher.github.io/"/>
+  <updated>2014-07-17T09:40:35-04:00</updated>
+  <id>http://blakehilscher.github.io/</id>
+  <author>
+    <name><![CDATA[Blake Hilscher]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2014/07/17/gallerize-gem/">Static Gallery Generator Gem</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2014-07-17T09:30:20-04:00" pubdate data-updated="true">Jul 17<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A static gallery generator gem that creates beautiful responsive layouts.</p>
+  <entry>
+    <title type="html"><![CDATA[Static Gallery Generator Gem]]></title>
+    <link href="http://blakehilscher.github.io/blog/2014/07/17/gallerize-gem/"/>
+    <updated>2014-07-17T09:30:20-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2014/07/17/gallerize-gem</id>
+    <content type="html"><![CDATA[<p>A static gallery generator gem that creates beautiful responsive layouts.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>gem install gallerize-cli</span></code></pre></td></tr></table></div></figure>
@@ -118,46 +27,43 @@ Documentation ">
 <p><a href="http://examples.hilscher.ca/gallerize/">Example Gallery</a>
 <a href="https://github.com/blakehilscher/gallerize">Documentation</a></p>
 
-</div>
+<!-- more -->
+
+
+<h3>Overview</h3>
+
+<ul>
+<li>generate a static gallery from a folder of images</li>
+<li>responsive layout</li>
+<li>thumbnails and fullsize are generated automatically</li>
+<li>does not alter existing directory</li>
+</ul>
+
+
+<h3>Installation</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gem install gallerize-cli</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Usage</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd folder-with-pictures
+</span><span class='line'>$ gallerize
+</span><span class='line'>$ open static-gallery/index.html</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/07/17/gallerize-gem/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/10/grape-inline-data/">Grape API Formatter for Sending Inline Data.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-10T22:14:48-04:00" pubdate data-updated="true">Mar 10<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I needed to add a .png formatter to the <a href="http://quandl.com/help/api">quandl</a> Grape API.</p>
+  <entry>
+    <title type="html"><![CDATA[Grape API Formatter for Sending Inline Data.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2013/03/10/grape-inline-data/"/>
+    <updated>2013-03-10T22:14:48-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2013/03/10/grape-inline-data</id>
+    <content type="html"><![CDATA[<p>I needed to add a .png formatter to the <a href="http://quandl.com/help/api">quandl</a> Grape API.</p>
 
 <p>The png is generated using phantomjs, so it needed to be sent down inline.</p>
 
@@ -177,82 +83,28 @@ Documentation ">
 </span><span class='line'><span class="p">}</span>
 </span></code></pre></td></tr></table></div></figure>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/02/09/phantomjs/">Generate Images With Phantomjs.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-09T21:14:48-05:00" pubdate data-updated="true">Feb 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>These images are generated through the <a href="http://quandl.com">quandl</a> api using the png response type. Other supported response types are json, xml, csv, xls, and html. The api provides programatic access to trim, collapse, transform, merge, and order datasets.</p>
+  <entry>
+    <title type="html"><![CDATA[Generate Images With Phantomjs.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2013/02/09/phantomjs/"/>
+    <updated>2013-02-09T21:14:48-05:00</updated>
+    <id>http://blakehilscher.github.io/blog/2013/02/09/phantomjs</id>
+    <content type="html"><![CDATA[<p>These images are generated through the <a href="http://quandl.com">quandl</a> api using the png response type. Other supported response types are json, xml, csv, xls, and html. The api provides programatic access to trim, collapse, transform, merge, and order datasets.</p>
 
 <p><a target='blank' href='http://www.quandl.com/OFDP/COBALT_51-Cobalt-Price-Cash?utm_source=quandl&utm_medium=graph' /><img src='http://www.quandl.com/OFDP-Open-Financial-Data-Project/COBALT_51-Cobalt-Price-Cash.png?dataset[trim_start]=2013-07-02&dataset[trim_end]=2014-02-13&dataset[width]=853&dataset[height]=480&dataset[visible_columns]=0&dataset[y_axis_min]=24500&dataset[y_axis_max]=31300&dataset[y_axis_dual_min]=null&dataset[y_axis_dual_max]=null&dataset[graph_title]=Cobalt%20Price%3A%20Cash&dataset[graph_source]=Open%20Financial%20Data%20Project' alt='Graph of Cobalt Price: Cash'/></a></p>
 
 <p><a target='blank' href='http://www.quandl.com/BITCOIN/BTCEUSD-Bitcoin-Markets-btceUSD?utm_source=quandl&utm_medium=graph' /><img src='http://www.quandl.com/BITCOIN-Bitcoin-Charts/BTCEUSD-Bitcoin-Markets-btceUSD.png?dataset[trim_start]=2013-05-16&dataset[trim_end]=2014-02-15&dataset[width]=853&dataset[height]=480&dataset[visible_columns]=0&dataset[y_axis_min]=65.501&dataset[y_axis_max]=1072.5&dataset[y_axis_dual_min]=null&dataset[y_axis_dual_max]=null&dataset[graph_title]=Bitcoin%20Markets%20(btceUSD)&dataset[graph_source]=Bitcoin%20Charts' alt='Graph of Bitcoin Markets (btceUSD)'/></a></p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/10/30/proc/">Invoke a Proc in the Context of Another Object.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-30T22:14:48-04:00" pubdate data-updated="true">Oct 30<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+  <entry>
+    <title type="html"><![CDATA[Invoke a Proc in the Context of Another Object.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2012/10/30/proc/"/>
+    <updated>2012-10-30T22:14:48-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2012/10/30/proc</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -298,42 +150,15 @@ Documentation ">
 </span><span class='line'><span class="n">o</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="c1">#=&gt; 100</span>
 </span></code></pre></td></tr></table></div></figure>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/10/04/show-hidden-files/">Show Hidden Files and Folders in Textmate.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-04T22:14:48-04:00" pubdate data-updated="true">Oct 4<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+  <entry>
+    <title type="html"><![CDATA[Show Hidden Files and Folders in Textmate.]]></title>
+    <link href="http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files/"/>
+    <updated>2012-10-04T22:14:48-04:00</updated>
+    <id>http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -363,113 +188,7 @@ Documentation ">
 </span><span class='line'><span class="o">!.</span><span class="n">*</span><span class="o">/</span><span class="p">(</span><span class="o">.</span><span class="n">git</span><span class="o">|</span><span class="no">CVS</span><span class="o">|</span><span class="n">_darcs</span><span class="o">|</span><span class="n">_MTN</span><span class="o">|</span><span class="p">\{</span><span class="n">arch</span><span class="p">\}</span><span class="o">|</span><span class="n">blib</span><span class="o">|.</span><span class="n">*</span><span class="o">~</span><span class="p">\</span><span class="o">.</span><span class="n">nib</span><span class="o">|.</span><span class="n">*</span><span class="p">\</span><span class="o">.</span><span class="p">(</span><span class="n">framework</span><span class="o">|</span><span class="n">app</span><span class="o">|</span><span class="n">pbproj</span><span class="o">|</span><span class="n">pbxproj</span><span class="o">|</span><span class="n">xcode</span><span class="p">(</span><span class="n">proj</span><span class="p">)?</span><span class="o">|</span><span class="n">bundle</span><span class="p">))</span><span class="err">$</span>
 </span></code></pre></td></tr></table></div></figure>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/07/17/gallerize-gem/">Static Gallery Generator Gem</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/03/10/grape-inline-data/">Grape API Formatter for Sending Inline Data.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/09/phantomjs/">Generate Images With Phantomjs.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/30/proc/">Invoke a Proc in the Context of Another Object.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/04/show-hidden-files/">Show Hidden Files and Folders in Textmate.</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/blakehilscher">@blakehilscher</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'blakehilscher',
-            count: 2,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Blake Hilscher -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
