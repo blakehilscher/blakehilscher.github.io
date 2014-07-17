@@ -1,19 +1,21 @@
 ---
 layout: post
-title: "gem install gallerize-cli. A static gallery generator that creates beautiful responsive layouts."
+title: "Static gallery generator gem"
 date: 2014-07-17 09:30:20 -0400
 comments: true
-categories: 
+categories: [ruby, gem]
 ---
 
-### Example
+A static gallery generator gem that creates beautiful responsive layouts.
 
-http://examples.hilscher.ca/gallerize/
+```
+gem install gallerize-cli
+```
 
+[Example Gallery](http://examples.hilscher.ca/gallerize/) 
+[Documentation](https://github.com/blakehilscher/gallerize)
 
-### Documentation
-
-https://github.com/blakehilscher/gallerize
+<!-- more -->
 
 
 ### Overview
@@ -33,6 +35,8 @@ gem install gallerize-cli
 
 ### Usage
 
+```
 $ cd folder-with-pictures
 $ gallerize
 $ open static-gallery/index.html
+```
