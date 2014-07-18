@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gem | Blake Hilscher]]></title>
   <link href="http://blake.hilscher.ca/blog/categories/gem/atom.xml" rel="self"/>
   <link href="http://blake.hilscher.ca/"/>
-  <updated>2014-07-18T12:06:41-04:00</updated>
+  <updated>2014-07-18T12:08:09-04:00</updated>
   <id>http://blake.hilscher.ca/</id>
   <author>
     <name><![CDATA[Blake Hilscher]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Gem Install Gallerize]]></title>
+    <title type="html"><![CDATA[Gallerize: Static Gallery Generator Ruby Gem]]></title>
     <link href="http://blake.hilscher.ca/blog/2014/07/17/gallerize-gem/"/>
     <updated>2014-07-17T09:30:20-04:00</updated>
     <id>http://blake.hilscher.ca/blog/2014/07/17/gallerize-gem</id>
@@ -22,6 +22,14 @@
 
 <p><code>
 gem install gallerize-cli
+</code></p>
+
+<h3>Usage</h3>
+
+<p><code>
+$ cd folder-with-pictures
+$ gallerize
+$ open static-gallery/index.html
 </code></p>
 
 <p><a href="http://examples.hilscher.ca/gallerize/">Example Gallery</a>
@@ -44,14 +52,6 @@ gem install gallerize-cli
 
 <p><code>
 gem install gallerize-cli
-</code></p>
-
-<h3>Usage</h3>
-
-<p><code>
-$ cd folder-with-pictures
-$ gallerize
-$ open static-gallery/index.html
 </code></p>
 ]]></content>
   </entry>
