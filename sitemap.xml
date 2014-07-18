@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files/</loc>
+        <loc>http://blake.hilscher.ca/blog/2012/10/04/show-hidden-files/</loc>
         <lastmod>2014-07-17T09:29:54-04:00</lastmod>
     </url>
     <url>
-        <loc>http://blakehilscher.github.io/blog/2012/10/30/proc/</loc>
+        <loc>http://blake.hilscher.ca/blog/2012/10/30/proc/</loc>
         <lastmod>2014-07-17T09:29:54-04:00</lastmod>
     </url>
     <url>
-        <loc>http://blakehilscher.github.io/blog/2013/02/09/phantomjs/</loc>
+        <loc>http://blake.hilscher.ca/blog/2013/02/09/phantomjs/</loc>
+        <lastmod>2014-07-17T09:42:12-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blake.hilscher.ca/blog/2013/03/10/grape-inline-data/</loc>
         <lastmod>2014-07-17T09:29:54-04:00</lastmod>
     </url>
     <url>
-        <loc>http://blakehilscher.github.io/blog/2013/03/10/grape-inline-data/</loc>
+        <loc>http://blake.hilscher.ca/blog/2014/07/17/gallerize-gem/</loc>
+        <lastmod>2014-07-18T12:05:38-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blake.hilscher.ca/about/</loc>
         <lastmod>2014-07-17T09:29:54-04:00</lastmod>
     </url>
     <url>
-        <loc>http://blakehilscher.github.io/blog/2014/07/17/gallerize-gem/</loc>
-        <lastmod>2014-07-17T09:39:38-04:00</lastmod>
+        <loc>http://blake.hilscher.ca/blog/archives/</loc>
+        <lastmod>2014-07-18T12:05:38-04:00</lastmod>
     </url>
     <url>
-        <loc>http://blakehilscher.github.io/about/</loc>
-        <lastmod>2014-07-17T09:29:54-04:00</lastmod>
+        <loc>http://blake.hilscher.ca/</loc>
+        <lastmod>2014-07-18T12:05:38-04:00</lastmod>
     </url>
     <url>
-        <loc>http://blakehilscher.github.io/blog/archives/</loc>
-        <lastmod>2014-07-17T09:39:38-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://blakehilscher.github.io/</loc>
-        <lastmod>2014-07-17T09:39:38-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://blakehilscher.github.io/robots.txt</loc>
+        <loc>http://blake.hilscher.ca/robots.txt</loc>
         <lastmod>2014-07-17T09:29:54-04:00</lastmod>
     </url>
 </urlset>

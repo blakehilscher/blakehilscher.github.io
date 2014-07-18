@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Gem | Blake Hilscher]]></title>
-  <link href="http://blakehilscher.github.io/blog/categories/gem/atom.xml" rel="self"/>
-  <link href="http://blakehilscher.github.io/"/>
-  <updated>2014-07-17T09:40:35-04:00</updated>
-  <id>http://blakehilscher.github.io/</id>
+  <link href="http://blake.hilscher.ca/blog/categories/gem/atom.xml" rel="self"/>
+  <link href="http://blake.hilscher.ca/"/>
+  <updated>2014-07-18T12:06:41-04:00</updated>
+  <id>http://blake.hilscher.ca/</id>
   <author>
     <name><![CDATA[Blake Hilscher]]></name>
     
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Static Gallery Generator Gem]]></title>
-    <link href="http://blakehilscher.github.io/blog/2014/07/17/gallerize-gem/"/>
+    <title type="html"><![CDATA[Gem Install Gallerize]]></title>
+    <link href="http://blake.hilscher.ca/blog/2014/07/17/gallerize-gem/"/>
     <updated>2014-07-17T09:30:20-04:00</updated>
-    <id>http://blakehilscher.github.io/blog/2014/07/17/gallerize-gem</id>
+    <id>http://blake.hilscher.ca/blog/2014/07/17/gallerize-gem</id>
     <content type="html"><![CDATA[<p>A static gallery generator gem that creates beautiful responsive layouts.</p>
 
 <p><code>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Snippets | Blake Hilscher]]></title>
-  <link href="http://blakehilscher.github.io/blog/categories/snippets/atom.xml" rel="self"/>
-  <link href="http://blakehilscher.github.io/"/>
-  <updated>2014-07-17T09:40:35-04:00</updated>
-  <id>http://blakehilscher.github.io/</id>
+  <link href="http://blake.hilscher.ca/blog/categories/snippets/atom.xml" rel="self"/>
+  <link href="http://blake.hilscher.ca/"/>
+  <updated>2014-07-18T12:06:41-04:00</updated>
+  <id>http://blake.hilscher.ca/</id>
   <author>
     <name><![CDATA[Blake Hilscher]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Grape API Formatter for Sending Inline Data.]]></title>
-    <link href="http://blakehilscher.github.io/blog/2013/03/10/grape-inline-data/"/>
+    <link href="http://blake.hilscher.ca/blog/2013/03/10/grape-inline-data/"/>
     <updated>2013-03-10T22:14:48-04:00</updated>
-    <id>http://blakehilscher.github.io/blog/2013/03/10/grape-inline-data</id>
+    <id>http://blake.hilscher.ca/blog/2013/03/10/grape-inline-data</id>
     <content type="html"><![CDATA[<p>I needed to add a .png formatter to the <a href="http://quandl.com/help/api">quandl</a> Grape API.</p>
 
 <p>The png is generated using phantomjs, so it needed to be sent down inline.</p>
@@ -39,9 +39,9 @@ rack[2].body[0]
   
   <entry>
     <title type="html"><![CDATA[Invoke a Proc in the Context of Another Object.]]></title>
-    <link href="http://blakehilscher.github.io/blog/2012/10/30/proc/"/>
+    <link href="http://blake.hilscher.ca/blog/2012/10/30/proc/"/>
     <updated>2012-10-30T22:14:48-04:00</updated>
-    <id>http://blakehilscher.github.io/blog/2012/10/30/proc</id>
+    <id>http://blake.hilscher.ca/blog/2012/10/30/proc</id>
     <content type="html"><![CDATA[<p>```ruby
 class ObjectContext</p>
 
@@ -80,9 +80,9 @@ o.evaluate(t) #=> 100
   
   <entry>
     <title type="html"><![CDATA[Show Hidden Files and Folders in Textmate.]]></title>
-    <link href="http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files/"/>
+    <link href="http://blake.hilscher.ca/blog/2012/10/04/show-hidden-files/"/>
     <updated>2012-10-04T22:14:48-04:00</updated>
-    <id>http://blakehilscher.github.io/blog/2012/10/04/show-hidden-files</id>
+    <id>http://blake.hilscher.ca/blog/2012/10/04/show-hidden-files</id>
     <content type="html"><![CDATA[<p>```ruby</p>
 
 <h1>Want to show hidden files and folders in your TextMate project drawer? Simple, just modify the file and folder patterns in TextMate&rsquo;s preferences.</h1>
