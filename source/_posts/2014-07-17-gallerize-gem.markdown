@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "gallerize: static gallery generator ruby gem"
+title: "gallerize: static gallery gem"
 date: 2014-07-17 09:30:20 -0400
 comments: true
 categories: [ruby, gem]
