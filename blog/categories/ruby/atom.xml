@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Blake Hilscher]]></title>
   <link href="http://blake.hilscher.ca/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://blake.hilscher.ca/"/>
-  <updated>2014-07-18T12:08:09-04:00</updated>
+  <updated>2014-07-18T12:09:25-04:00</updated>
   <id>http://blake.hilscher.ca/</id>
   <author>
     <name><![CDATA[Blake Hilscher]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Gallerize: Static Gallery Generator Ruby Gem]]></title>
+    <title type="html"><![CDATA[Gallerize: Static Gallery Gem]]></title>
     <link href="http://blake.hilscher.ca/blog/2014/07/17/gallerize-gem/"/>
     <updated>2014-07-17T09:30:20-04:00</updated>
     <id>http://blake.hilscher.ca/blog/2014/07/17/gallerize-gem</id>
