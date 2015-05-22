@@ -11,7 +11,7 @@
   
   <meta name="description" content="Install the tcpflow package: 1
 apt-get install tcpflow Monitor network traffic: 1
-tcpflow -p -c -i eth1 port 80 | grep -oE '(GET|POST|HEAD) .* HTTP/ &hellip;">
+tcpflow -p -c -i eth1 port 80 | grep -oE '(GET|POST|HEAD) .* HTTP/1 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -109,19 +109,13 @@ tcpflow -p -c -i eth1 port 80 | grep -oE '(GET|POST|HEAD) .* HTTP/ &hellip;">
   </header>
 
 
-  <div class="entry-content"><ol>
-<li>Install the tcpflow package:</li>
-</ol>
-
+  <div class="entry-content"><h3>Install the tcpflow package:</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>apt-get install tcpflow</span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Monitor network traffic:</li>
-</ol>
-
+<h3>Monitor network traffic:</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>tcpflow -p -c -i eth1 port 80 | grep -oE '(GET|POST|HEAD) .* HTTP/1.[01]|Host: .*'</span></code></pre></td></tr></table></div></figure>

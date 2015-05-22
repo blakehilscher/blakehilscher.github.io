@@ -4,7 +4,7 @@
   <title><![CDATA[Blake Hilscher]]></title>
   <link href="http://blake.hilscher.ca/atom.xml" rel="self"/>
   <link href="http://blake.hilscher.ca/"/>
-  <updated>2015-05-22T12:23:30-04:00</updated>
+  <updated>2015-05-22T12:24:33-04:00</updated>
   <id>http://blake.hilscher.ca/</id>
   <author>
     <name><![CDATA[Blake Hilscher]]></name>
@@ -18,19 +18,13 @@
     <link href="http://blake.hilscher.ca/blog/2015/05/22/monitor-incoming-http-requests/"/>
     <updated>2015-05-22T12:20:15-04:00</updated>
     <id>http://blake.hilscher.ca/blog/2015/05/22/monitor-incoming-http-requests</id>
-    <content type="html"><![CDATA[<ol>
-<li>Install the tcpflow package:</li>
-</ol>
-
+    <content type="html"><![CDATA[<h3>Install the tcpflow package:</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>apt-get install tcpflow</span></code></pre></td></tr></table></div></figure>
 
 
-<ol>
-<li>Monitor network traffic:</li>
-</ol>
-
+<h3>Monitor network traffic:</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>tcpflow -p -c -i eth1 port 80 | grep -oE '(GET|POST|HEAD) .* HTTP/1.[01]|Host: .*'</span></code></pre></td></tr></table></div></figure>
