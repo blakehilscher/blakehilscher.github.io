@@ -6,14 +6,14 @@ comments: true
 categories: 
 ---
 
-1. Install the tcpflow package:
+### Install the tcpflow package:
 
 ```
 apt-get install tcpflow
 ```
 
 
-2. Monitor network traffic:
+### Monitor network traffic:
 
 ```
 tcpflow -p -c -i eth1 port 80 | grep -oE '(GET|POST|HEAD) .* HTTP/1.[01]|Host: .*'
